@@ -23,8 +23,7 @@ public class CustomUserRowMapper implements RowMapper<User> {
 	    user.setEmail(rs.getString("email"));
 	    user.setContact(rs.getString("contact"));
 	    user.setUserid("userid");    
-	    user.setPassword(rs.getString("password"));
-	   
+	    user.setPassword(rs.getString("password"));	   
 		
 		return user;
 	}
